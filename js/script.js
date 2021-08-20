@@ -94,6 +94,8 @@ document.getElementById('promo-code-button').addEventListener('click', function 
 
     // DISCOUNTED PRICE 
     const discoundted = document.getElementById('discounted-price');
+
+    // TOTAL PRICE FUNCTION
     const getTotalPrice = totalPrice();
 
     if (promoCodeText == 'stevekaku') {
