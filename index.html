@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac Book Pro!</title>
+    <!-- TAILWIND CSS LINK -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <main class="w-10/12 mx-auto">
+        <!-- BUY SECTION  -->
+        <section>
+            <div class="grid grid-cols-2 gap-8">
+
+                <!-- MAIN IMAGE  -->
+                <div class="p-16">
+                    <img src="images/mac.png" alt="">
+                </div>
+
+                <!-- DESCRIPTION AND OTHER'S  -->
+                <div class="p-10">
+                    <h1 class="text-4xl font-semibold">Customize Your Blue 24-inch iMac with Apple M1 chip.</h1>
+                    <p class="mt-4">Apple M1 chip with 8-core with 4 performance cores and 4 efficiency cores, 7-core
+                        GPU, and
+                        16-core Neural Engine 8GB unified memory 256GB SSD storage Two Thunderbolt / USB 4 ports Magic
+                        Mouse Magic Keyboard-US English.</p>
+
+                    <!-- ITEMS  -->
+                    <h2 class="mt-4 text-xl font-bold mb-4">Memory</h2>
+                    <button id="lowest-memory-button" class="border rounded p-4">8GB unified memory</button><button
+                        id="highest-memory-button" class="border rounded p-4 ml-2">16GB unified
+                        memory</button>
+                    <h2 class="mt-4 text-xl font-bold mb-4">Storage</h2>
+                    <button id="lowest-storage-button" class="border rounded p-4">256GB SSD storage</button><button
+                        id="midle-storage-button" class="border rounded p-4 ml-2">512GB SSD storage</button><button
+                        id="highest-storage-button" class="border rounded p-4 ml-2">1TB SSD
+                        storage</button>
+                    <h2 class="mt-4 text-xl font-bold mb-4">Choose your delivery option</h2>
+                    <button id="shipping-cost-free" class="border rounded p-4">Friday, Aug 25 FREE Prime
+                        Delivery</button>
+                    <button id="shipping-cost-paid" class="border rounded p-4 ml-2">Friday, Aug 21 Delivery Charge
+                        $20</button>
+
+                    <!-- TOTAL PRICE AND PRO CODE  -->
+                    <div class="grid grid-cols-2 mt-8">
+                        <div>
+                            <h3 class="mt-4 text-xl font-bold mb-4">Best Price $<spa id="best-price">1299</span>
+                            </h3>
+                            <hr>
+                            <h3 class="mt-4 text-xl font-bold mb-4">Extra Memory Cost
+                                $<span id="extra-memory-price">0</span></h3>
+                            <hr>
+                            <h3 class="mt-4 text-xl font-bold mb-4">Extra Storage Cost $<span
+                                    id="extra-storage-cost">0</span></h3>
+                            <hr>
+                            <h3 class="mt-4 text-xl font-bold mb-4">Delivery Charge $<span id="delivery-charge">0</span>
+                            </h3>
+                            <hr class="border border-black">
+                            <h3 class="mt-4 text-xl font-bold mb-4">Total Price $ <span id="total-price">1299</span>
+                            </h3>
+
+                            <!-- PROMO CODE -->
+                            <h3 class="mt-8 text-2xl font-semibold mb-4">Add Pomo Code</h3>
+                            <input id="promo-code-field" class="p-4 border border-red-400 " type="text"><button
+                                id="promo-code-button" class="text-white p-4 rounded bg-pink-600 ml-2">Apply</button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <hr>
+        <!-- TOTAL COST SECTION  -->
+        <section>
+            <hr>
+            <h2 class="text-5xl font-bold text-center">Total: $ <span id="discounted-price">1299</span> </h2>
+        </section>
+    </main>
+
+
+    <!-- JAVASCRIPT LINK  -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
